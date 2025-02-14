@@ -19,7 +19,7 @@ print("\nData types:")
 print(data.dtypes)
 
 # Example of a simple analysis: count the number of unique values in a column
-column_names = ['participantNumber', 'isCongruent', 'reactionTime']  # Replace with your actual column names
+column_names = ['participantNumber', 'isCongruent', 'reactionTime']  
 for column_name in column_names:
     print(f"\nNumber of unique values in '{column_name}':")
     unique_values = []
